@@ -1,9 +1,7 @@
 package com.example.vishaltorgal.quiz;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.DrawableRes;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
@@ -13,9 +11,9 @@ import com.tomer.fadingtextview.FadingTextView;
 
 public class Result extends AppCompatActivity {
 
-    TextView tv_result,tv_hs;
-    ImageView iv_restart,iv_emoji;
-    com.tomer.fadingtextview.FadingTextView fadingText_sad,fadingText_happy;
+    TextView tv_result, tv_hs;
+    ImageView iv_restart, iv_emoji;
+    com.tomer.fadingtextview.FadingTextView fadingText_sad, fadingText_happy;
 
 
     @Override
@@ -25,7 +23,6 @@ public class Result extends AppCompatActivity {
         setContentView(R.layout.result);
 
         tv_result = (TextView) findViewById(R.id.tv_result);
-        //  tv_comment = (TextView) findViewById(R.id.tv_comment);
         iv_restart = (ImageView) findViewById(R.id.iv_restart);
         iv_emoji = (ImageView) findViewById(R.id.iv_emoji);
         fadingText_sad = (FadingTextView) findViewById(R.id.fadingText_sad);
@@ -39,11 +36,9 @@ public class Result extends AppCompatActivity {
         if (per > 50) {
             iv_emoji.setImageResource(R.drawable.ic_happy);
             fadingText_happy.setVisibility(View.VISIBLE);
-            //  tv_comment.setText("Your are Awesome");
         } else {
             iv_emoji.setImageResource(R.drawable.ic_sad);
             fadingText_sad.setVisibility(View.VISIBLE);
-            //  tv_comment.setText("Need to Improve");
         }
 
 
@@ -58,18 +53,15 @@ public class Result extends AppCompatActivity {
             }
         });
 
-
-
     }
-
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Appconstants.correct_answer=0;
-        Intent ii = new Intent(Result.this,Questions.class);
+        Appconstants.correct_answer = 0;
+        Intent ii = new Intent(Result.this, Questions.class);
         finish();
         startActivity(ii);
 
-        }
+    }
 }

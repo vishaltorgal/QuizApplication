@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#dfdfdf"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@drawable/ic_users"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="40sp"
-        android:layout_gravity="center_horizontal"/>
+        android:background="@drawable/ic_users" />
 
     <EditText
         android:id="@+id/et_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="25dp"
         android:layout_marginTop="20sp"
         android:hint="Enter name to continue"
         android:maxLength="100"
         android:maxLines="1"
-        android:textColor="@color/colorPrimary"
-        android:layout_margin="25dp"/>
+        android:textColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/bt_name"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="SUBMIT"
-        android:textColor="#ffffff"
-        android:textStyle="bold"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:background="@color/colorPrimary" />
+        android:background="@color/colorPrimary"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
 </android.widget.LinearLayout>

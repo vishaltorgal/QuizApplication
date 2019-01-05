@@ -5,8 +5,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.skyfishjy.library.RippleBackground;
@@ -25,18 +23,17 @@ public class SplashScreen extends Activity {
         setContentView(R.layout.splashscreen);
 
 
-
-        rippleBackground=(RippleBackground)findViewById(R.id.content);
-        imageView =(ImageView)findViewById(R.id.centerImage);
+        rippleBackground = (RippleBackground) findViewById(R.id.content);
+        imageView = (ImageView) findViewById(R.id.centerImage);
 
 
         rippleBackground.startRippleAnimation();
 
-        new Handler().postDelayed(new Runnable(){
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
 
-                Intent mainIntent = new Intent(SplashScreen.this,MainActivity.class);
+                Intent mainIntent = new Intent(SplashScreen.this, MainActivity.class);
                 finish();
                 rippleBackground.stopRippleAnimation();
                 startActivity(mainIntent);
