@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#dfdfdf">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="You Scored"
+        android:textStyle="bold"
+        android:textColor="#339900"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#339900"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/iv_emoji"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_happy"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/iv_restart"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_refresh"/>
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:id="@+id/fadingText_sad"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#FF9900"
+        android:layout_margin="10dp"
+        app:texts="@array/sad"
+        android:visibility="gone"
+        app:timeout="3000"/>
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:id="@+id/fadingText_happy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#FF9900"
+        android:layout_margin="10dp"
+        app:texts="@array/happy"
+        android:visibility="gone"
+        app:timeout="3000"/>
+
+</android.widget.LinearLayout>

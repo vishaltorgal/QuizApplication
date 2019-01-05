@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+
+
+    <string-array name="sad">
+        <item>Need to Improve</item>
+         <item>Want to Try Again</item>
+    </string-array>
+
+    <string-array name="happy">
+        <item>Your are Awesome</item>
+        <item>Want to Try Again</item>
+    </string-array>
+
+</resources>
+
+
