@@ -1,12 +1,12 @@
-<h2> Quiz Application in Android <h2/>
+## Quiz Application in Android
 
 
-<p style="text-align: center;"><span style="color: #000000;"><span style="caret-color: #333399;"><strong>Download APK Link&nbsp;</strong></span></span></p>
-<p style="text-align: left;"><span style="color: #000000;">https://github.com/vishaltorgal/QuizApplication/blob/master/quiz.apk</span></p>
+<a href="https://github.com/vishaltorgal/QuizApplication/raw/master/quiz.apk"><img src="https://github.com/vishaltorgal/SendingEmails/blob/master/dlapk.png" width="150" height="80" title="White flower" alt="Flower"></a>
 
 <br>
-<p style="text-align: center;"><img src="https://github.com/vishaltorgal/QuizApplication/blob/master/1.png" alt="" width="400" height="550"/>&nbsp;</p>
+
+<img src="https://github.com/vishaltorgal/QuizApplication/blob/master/1.png" alt="alt text" width="300" height="450">
 <br>
-<p style="text-align: center;"><img src="https://github.com/vishaltorgal/QuizApplication/blob/master/2.png" alt="" width="400" height="550"/>&nbsp;</p>
+<img src="https://github.com/vishaltorgal/QuizApplication/blob/master2.png" alt="alt text" width="300" height="450">
 <br>
-<p style="text-align: center;"><img src="https://github.com/vishaltorgal/QuizApplication/blob/master/3.png" alt="" width="400" height="550"/>&nbsp;</p>
+<img src="https://github.com/vishaltorgal/QuizApplication/blob/master3.png" alt="alt text" width="300" height="450">
