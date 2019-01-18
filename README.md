@@ -7,6 +7,6 @@
 
 <img src="https://github.com/vishaltorgal/QuizApplication/blob/master/1.png" alt="alt text" width="300" height="450">
 <br>
-<img src="https://github.com/vishaltorgal/QuizApplication/blob/master2.png" alt="alt text" width="300" height="450">
+<img src="https://github.com/vishaltorgal/QuizApplication/blob/master/2.png" alt="alt text" width="300" height="450">
 <br>
-<img src="https://github.com/vishaltorgal/QuizApplication/blob/master3.png" alt="alt text" width="300" height="450">
+<img src="https://github.com/vishaltorgal/QuizApplication/blob/master/3.png" alt="alt text" width="300" height="450">
